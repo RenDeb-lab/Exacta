@@ -1,4 +1,5 @@
 import React from 'react';
+import { Ruler, Award, Zap } from 'lucide-react';
 import './sections.css';
 
 const About = () => {
@@ -26,17 +27,23 @@ const About = () => {
 
           <div className="about-stats">
             <div className="stat-card">
-              <div className="stat-icon">📐</div>
+              <div className="stat-icon">
+                <Ruler size={36} />
+              </div>
               <h3 className="stat-number">Akurat</h3>
               <p className="stat-label">Kalibrasi Presisi Tinggi</p>
             </div>
             <div className="stat-card">
-              <div className="stat-icon">🎓</div>
+              <div className="stat-icon">
+                <Award size={36} />
+              </div>
               <h3 className="stat-number">Profesional</h3>
               <p className="stat-label">Tim Bersertifikat</p>
             </div>
             <div className="stat-card">
-              <div className="stat-icon">⚡</div>
+              <div className="stat-icon">
+                <Zap size={36} />
+              </div>
               <h3 className="stat-number">Terpercaya</h3>
               <p className="stat-label">Layanan Berkualitas</p>
             </div>
